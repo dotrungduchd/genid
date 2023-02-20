@@ -1,0 +1,21 @@
+{
+  "name": "genid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --strictFunctionTypes --extendedDiagnostics",
+    "test": "tsc && mocha build/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1"
+  }
+}

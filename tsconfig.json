@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": ["es2018", "ES2021.String", "dom", "dom.iterable"],
+    "module": "commonjs",
+    "target": "es2018",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    },
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "outDir": "./build",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "incremental": true
+  },
+  "exclude": ["node_modules", "build/**/*"]
+}
